@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+    --color-one:#212529; /*mau chu */
+    --color-two:#EFEFEF;  /*mau nen */
+    --color-three:#f7d9c4;
+    --color-four:#777777;
+    --color-five:#FF8484;
+    --color-six:#1b2026;
+    --color-seven:#dce8eb;
+    --font:'DM Sans', sans-serif;
+}
+*{
+    font-family: var(--font);
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+@media (min-width: 576px){
+    .container{
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px){
+    .container{
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px){
+    .container{
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px){  /* màn hình có độ rộng >= 1200px container có độ rộng <=1140px*/
+    .container{
+        max-width: 1140px;
+    }
+}
+
+
+
+
